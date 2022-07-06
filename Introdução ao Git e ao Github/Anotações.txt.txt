@@ -1,0 +1,4 @@
+
+O que é o Git Bash?
+É um terminal extendido para otinizar o uso do git
+que oferece a camada de emulação para a experiência de linha de comando Git
