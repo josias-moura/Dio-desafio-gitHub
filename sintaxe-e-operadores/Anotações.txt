@@ -1,0 +1,45 @@
+Operadores de comparação
+
+Operador     |     Descrição
+   ==        |     Igual a
+   ===       |     Mesmo valor e mesmo tipo
+   !=        |     Diferente
+  !==        |     Valor e tipos diferentes
+   >         |     Maior que
+   <         |     Menor que
+   >=        |     Maior igual
+   <=        |     Menor ou igual
+
+-------------------------------------------------------
+               Lógica
+
+Operador                  Descrição
+  &&              |        "e" lógico
+  ||              |        "ou" lógico
+  !               |        "não" lógico
+
+
+__________________________________________________________
+
+             Atribuição
+
+Operadores        Exemplo         Equivalente a
+   =                x = y             x = y
+   +=               x += y            x = x+y
+   *=               x *= y            x = x*y
+   /=               x /= y            x = x / y
+   %=               x %= y            x = x % y
+
+__________________________________________________________
+
+     operadores Aritimética
+ 
+Operador                 Descrição
+  +                        Adição
+  -                        Subtração
+  *                       Multiplicação
+  **                      Exponencial
+  /                        Divisão
+  %                        Módulo
+  ++                       Incrementar
+  --                       Decrementar
