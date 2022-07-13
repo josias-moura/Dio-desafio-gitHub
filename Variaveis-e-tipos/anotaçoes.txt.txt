@@ -1,0 +1,42 @@
+Constantes -> const
+
+Declarada em -> SNAKE_UPPER_CASE
+
+Escopo de bloco
+
+Não faz hoisting
+
+var, let e const
+
+----------------------------------------------------------------
+
+                 var                  const              let
+
+escopo         global ou local        bloco              bloco
+redeclarar       sim                  não                não
+reatribuir       sim                  não                sim
+hoistng          sim                  não                não
+
+
+
+Estruturas de dados
+
+Javascript é uma linguagem de tipagem dinâmica
+
+Ou seja, antes de declarar um valor, voçê não
+especifica o tipo dele.
+
+
+--------------------------------------------------------------
+Strings
+-> Comumente utilizada para textos
+-> Valores declarados entre aspas ou crases.
+
+Métodos importantes
+-> Concatenação
+-> Propriedade length
+-> Iterabilidade
+-> Formatação
+----------------------------------------------------------------
+Array
+Lista iterável de elementos.
