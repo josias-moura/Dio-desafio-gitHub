@@ -1,0 +1,100 @@
+Tipos de função
+
+Estrutura e Função anônima
+
+Definição comum de uma função
+Variáveis criadas dentro delas 
+apenas podem ser utilizadas dentro delas.
+
+Quando invocamos o "return", a função para de ser
+executada. 
+
+
+Função anônima
+Uma variável pode armazenar uma função.
+
+
+
+Função autoinvocádavel e Callbacks
+
+IIFE (Immediately Invoked Fnction Expression)
+uma função anônima estre parênteses, seguida por
+outro par de parênteses, que reprenta sua
+chamada.
+Também pode ser utilizada com parâmetros ou
+armazenada em uma variável
+
+Callbacks
+Uma função passada como argumento para
+outra.
+Utilizando callbacks, voçê tem
+maior controle da ordem de chamadas.
+
+Objeto "arguments"
+Um array com todos os parâmetros passados quando
+a função foi invocada.
+
+Arrays
+Spread: uma forma de lidar separadamente com elementos
+
+O que era parte de um array se torna um elemento independente.	
+
+Rest: copmbina os argumentos em um array 
+
+O que era um elemento independente se torma parte de um array.
+
+Objetos
+Object Destructuring
+Entre chaves{}, podemos filtra
+os dados que nos interessam em um  objeto.
+
+
+Loops
+
+if/else
+
+Javascript não tem elseif, as palavras sempre estão espaçadas!
+
+Switch/case
+
+- Equivale a uma comparação de tipo e valor (===)
+- Sempre precisa de valor "default"
+- Ideal para quando se precisa comparar muitos valores
+
+for
+Loop dentro de elementos iteráveis (arrays, strings).
+
+For...in
+Loop entre propriedades enumeráveis de um objeto.        
+
+For...of
+Loop entre estruturas interáveis (array, string).  
+
+while
+Executa instruções até que a condição se torne false.
+
+Do...while
+Executa instruções até que a condição se torne false.
+
+Porém a primeira execução sempre ocorra.
+
+This: o que é?
+A palavra reservada this é uma referência de contexto.
+No exemplo, this refere-se ao objeto passado.
+
+Seu valor pode mudar mudar de acordo com o lugar no código
+onde foi chamada.
+
+       Contexto                            Referência
+Em uma objeto (método)             Próprio objeto dono do método
+       Sozinha                Objeto global(em navegadores, window)
+       Função                             Objeto global
+       Evento                         Elemento que recebeu o evento
+
+
+Apply
+É possível passar parâmetros para essa função dentro de um array.
+
+Bind
+Clona estrutura de função onde é chamada e aplica o valor 
+do objeto passado como parâmetro.
