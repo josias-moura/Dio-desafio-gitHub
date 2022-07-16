@@ -1,0 +1,39 @@
+ECMAScript Error
+
+Qual a composição de um ECMAScript Error?
+Mensagem, nomme, linha e call stackl
+
+Erros que ocorrem em tempo de excução.
+
+Composto por:
+- Mensagem
+- Nome
+- Linha
+- Call Stack
+
+DOMException
+Erros relaciomados ao Document Object Model (DOM).
+
+
+Throw
+
+Qual a diferença entre throw e return?
+
+Throw lança um error, enquanto o return retorna um valor
+
+
+Try....catch
+Sobre a declaração try...catch, é correto afirmar que:
+
+Dentro do bloco try são executadas instruções e caso ocorra 
+algum erro durante o processo, ele será tratado no bloco catch
+
+Sobre o bloco catch, é correto afirmar que:
+É executado apenas quando ocorre um erro e possibilita a manipulação de um objeto Error
+
+
+Finally
+O método finally() retorna uma Promise.
+
+Sobre a declaração finally, é correto afirmar que:
+É executada sempre, independente de error ocorrido ou não
