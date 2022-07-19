@@ -1,0 +1,73 @@
+Orientação a Objetos com JavaScript
+
+Paradigmas
+Inperative 
+(Procedural, Obect Oriented, Parallel Preocessing)
+
+Declarative
+(Logic, Functiopnal Detaflow, Database)
+
+Paradigmas
+Os programas são "objetos" que possuem uma série de propriedades
+
+Pilares:
+- Herança
+O objeto filhjo herda propriedade e
+métodos do objeto pai.
+
+definição de Herança?
+Classes descententes herdam características de suas classes ascendentes
+
+- Polimorfidmo
+Objetos podem herdar a mesma classe
+pai, mas se comportarem de forma
+diferente quando invocamos seus métodos.
+
+definição de Polimorfismo?
+O conceito de que classe mais complexas hedam métodos de classes
+mais abstradas e os executam à sua maneira
+
+- Encapsulamento
+Cada classe tem propriedades e métodos
+independentes de restante do código.
+
+definição de Encapsulamento?
+Propriedades e métodos de uma clase dizem respeito apenas a ela
+
+- Abstração
+"Processo mental que consiste em
+isilar um aspecto determinado de um
+estado de coisas relativamente
+complexo, a fim de simplificar a sua
+avaliação, classificação do menmo"
+
+definição de Abstração?
+Diminuir complexidade
+
+Dadas as afirmações abaixo
+
+I.  A sintaxe de Classes em Javascript é apenas um “açúcar sintético”.
+II.  Javascript utiliza Herança Prototipada
+III. Funções dentro de um objeto são chamadas de “métodos”
+todas 
+
+
+Orientação a Objetos com JavaScript
+Protótipos
+Todos os objetos javascript herdam propriedades e métodos de um prototype.
+O objeto Objetos.prototype esté no topo desta cadeia.
+
+Classes
+Syntatic sugar: uma sintaxe feita para falicitar a escrita
+
+Sobre o método super() é correto afirmar que:
+Ele passa os argumentos enviados para a classe ascendente
+
+Dadas as afirmações abaixo
+
+I. O método super() pode ser utilizado em classes que herdam propriedades de outras
+II. Getters e setters são utilizados como modificadores de um valor
+I e II
+
+Sobre protótipos, é correto afirmar que:
+São responsavel pelo conceito de Herança em Javascript
