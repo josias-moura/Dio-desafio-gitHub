@@ -1,0 +1,40 @@
+Definição 
+
+assíncrono
+"Que não ocorre ou não se efetiva ao mesmo tempo"
+
+O Javascript roda de maneira síncrona.
+
+Promises 
+Objwtivo de processamento assíncrono
+inicialmente, seu valor é desconhecido. Ela pode, então,
+ser resolvida ou rejeitada.
+
+uma promise pode ter 3 estados 
+1 -> Pending
+2 -> Fulfilled
+3 -> Rejected
+
+async/await
+await -> É um operador especifico para lidar com Promises.
+Funções assíncronas precisam dessas duas palavras chave.
+Funções assíncronas também retornam Promises!
+
+O que são APIs
+Application Programming Interface
+
+Uma API é uma forma de indentificar os resultados de back-end como o que
+é apresentado no fron-end. consegue acessá-la por meio de URLs. 
+
+JSON: JavaScript Object Notation
+
+Acrônimo para javaScript Object Notation, é uma formato de troca de informações, muito utilizida na
+comunicação de front-end com APIs
+
+É muito comum que APIs retornem seu dados no fomato. json, portanto precisamos
+tratar esses dados quando os recebemos.
+
+fetch
+Consumindo APIs
+
+fetch retorna uma Promise
