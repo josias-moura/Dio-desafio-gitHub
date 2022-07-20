@@ -1,0 +1,104 @@
+O que é DOM
+Documente Object Model é um padão de como acessar
+e modificar os elementos HTML de uma página.
+
+Sobre o Document Object Model, é correto afirmar que:
+
+
+BOM
+Browser Object Model
+Tudo o que está dentro do objeto 
+
+Qual a diferença entre BOM e DOM?
+O DOM é a árvore de dependencia do HTML, enquanto ao BOM é a árvore de depemdencia do Browser
+
+
+Trabalhando com estilos
+Classes
+Element.classList
+
+CSS
+Acessando diretamente o CSS de um elemeto
+
+document.getElementsByTagName("p").style.color = "blue";
+
+Tipos
+Eventos de mouse
+mouseover, mouseout
+
+Eventos de clique
+click, (dbclik = click duplo)
+
+Eventos de atualização
+Change, load
+
+Event Listener
+diretamente no Javascript, cria um evento que vai
+ser acinado no momento em wue usuário realizar determinada ação.
+
+const botao = document.getElementById("meuBotao");
+
+botao.addEventListener("click", outraFuncao);
+
+Como remover uma classe a um elemento HTML via Javascript?
+element.classList.remover('class')
+
+Sobre o Document Object Model, é correto afirmar que:?
+É possivel acessar os elementos HTML, seus elementos ascendentes e descendentes
+
+Dado o código abaixo:
+
+<html>
+  <head>
+    <title>Documento</title>
+  </head>
+  <body>
+    <h1>Título principal</h1>
+
+    <section id="sobre" class="full-screen">
+      <p>Texto de apresentação</p>
+    </section>
+  </body>
+</html>
+
+Como poderia ser selecionado o elemento <section id="sobre" class="full-screen">?
+
+document.querySelectorAII('#sobre.full-screen')
+
+
+Dado o código abaixo:
+
+<html>
+  <head>
+    <title>Documento</title>
+  </head>
+  <body>
+    <h1>Título principal</h1>
+
+    <section id="sobre" class="full-screen">
+      <p class=”paragrafo”>Texto de apresentação</p>
+    </section>
+  </body>
+</html>
+
+Como poderia ser selecionado o elemento <p class=”paragrafo”>Texto de apresentação</p>?
+document.getElementsByClassName('paragrafo'[0])
+
+
+Dado o código abaixo:
+
+<html>
+  <head>
+    <title>Documento</title>
+  </head>
+  <body>
+    <h1>Título principal</h1>
+
+    <section id="sobre" class="full-screen">
+      <p>Texto de apresentação</p>
+    </section>
+  </body>
+</html>
+
+Como poderia ser selecionado o elemento <h1>Título principal</h1>?
+document.getElementsByTagName('h1'[0])
