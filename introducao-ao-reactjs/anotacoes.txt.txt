@@ -1,0 +1,69 @@
+História e Conceitos
+"Uma biblioteca JavaScript para criar interfaces de usuário" - Reactjs
+Versão atual 16.8.6
+
+Criado em 2011 por Jordan walke no Facebook;
+
+Baseado no XHP, uma framework para criação de HTML no PHP;
+
+Utilizado no mural de notpías da ferramenta facebook;
+
+2012 - Ulizado no Instagram
+
+2013 - Anúcio para liberação OpenSource no JSConf
+
+2015 - React Native
+
+2015 - UWP (Universal Windows Plarform)
+
+React é uma biblioteca e não um framework;
+
+A principal função é a criação da interface para oa usuário.
+
+React é uma linguagem declarativa.
+
+Declarativa vs Imperativa.
+
+O React está preocupado apenas com o que é exibido na interface do usuário.
+
+Pode ser utilizada em qualquer lugar.
+
+React é baseda em componentes.
+
+
+Configuração 
+React Create APP
+
+REact Script
+
+Task Runners e Bundler Sizers
+
+Oque é JSX
+const element = <h1>Hello, World!</h1>;
+
+Nem HTML e nem uma string!
+
+
+Renderização
+Renderição de elementos;
+
+React DOM;
+
+Nós Raíz.
+
+React "pensa" como interface esta a cada momento
+ao invés de alterá-la com o tempo, o que faz ter ganho
+de performance e evita uma série de reeos.
+
+
+Componentes e Props
+Função e Classe;
+Props;
+Composição de Componentes;
+Extração de Componentes
+
+EStados e Ciclo de Vida
+Iniciação
+Montagem
+Atualização
+Desmontagem
